@@ -1,0 +1,17 @@
+/*VDP Debug mode
+CALL LOGCONTROLLER('com.denodo.vdp.requests', 'INFO');
+CALL LOGCONTROLLER('com.denodo', 'ERROR');
+
+
+
+/*LDAP
+ou=users,o=denodose
+(&(objectclass=person))
+
+
+
+
+cn=Adam Horivitz,ou=users,o=denodose	ahorivitz
+cn=Hanpo Yin,ou=users,o=denodose
+
+select GETSESSION('user') , GETSESSION('roles') from dual()
